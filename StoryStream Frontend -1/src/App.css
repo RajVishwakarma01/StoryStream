@@ -1,0 +1,50 @@
+/* Ensure the background color of the body is applied */
+body {
+    /* background: #eceff1!important; */
+    background-image: url(https://i.pinimg.com/564x/9f/1d/71/9f1d719120ab5f6b178eb872b5a9ee0b.jpg);
+ 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+    font-family:  "Arial" !important;
+    
+    /* background-color: rgba(0, 0, 0, 5); */
+}
+
+/* Apply styles to active page links in the pagination */
+.page-item.active .page-link {
+    background-color: #121212!important;
+    border-color: #121212!important;
+}
+.container-fluid{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+#image{
+    width: 50%;
+    height: 50%;
+    padding: 0 px;
+    margin: 0 px;
+}
+
+/* Footer.css */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Media query for tablets (768px - 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  
+  /* Media query for mobile devices (up to 767px) */
+  @media (max-width: 767px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+  
